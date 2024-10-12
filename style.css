@@ -1,1 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Cabin:ital,wght@0,400..700;1,400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+span{
+    color: aqua;
+}
+
+img{
+    user-select: none;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Josefin Sans';
+    padding: 20px 80px;
+    width: 100%;
+    background-color: aliceblue;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.226);
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+nav .logo{
+    display: flex;
+    user-select: none;
+    cursor: pointer;
+}
+
+nav .logo h2{
+    padding-left: 15px;
+    font-size: 1.6rem;
+    padding-top: 3px;
+}
+
+nav .logo img{
+    height: 30px;
+}
+
+nav ul li a{
+    font-size: 1.3rem;
+    padding-right: 15px;
+    transition: 0.3s ease;
+    user-select: none;
+}
+
+nav ul li a:hover{
+    color: aqua;
+}
+
+nav ul li a:active{
+    color: aquamarine;
+}
+
+.hero{
+    height: 80vh;
+    width: 100%;
+    background-image: url(imgs/backgrounds/banner\ fitness.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero img{
+    margin-top: 32px;
+    height: 600px;
+}
+
+
+
+
+
+
 
