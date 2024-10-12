@@ -73,7 +73,7 @@ nav ul li a:active{
 .hero{
     height: 80vh;
     width: 100%;
-    background-image: url(imgs/backgrounds/banner\ fitness.jpg);
+    background-image: url(assets/backgrounds/banner\ fitness.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
