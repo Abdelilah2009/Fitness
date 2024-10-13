@@ -640,12 +640,6 @@ exercices
 
 .footer-brand-text { margin-block: 25px; }
 
-.footer-top .wrapper {
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 20px;
-}
 
 .footer-brand-list li:not(:last-child) { margin-block-end: 15px; }
 
@@ -655,11 +649,11 @@ exercices
   font-family: var(--ff-catamaran);
 }
 
-.footer-list-title {
+ .footer-list-title {
   font-size: var(--fs-4);
   font-weight: var(--fw-800);
   margin-block-end: 28px;
-}
+} 
 
 .footer-list-title::before {
   bottom: 0;
@@ -743,13 +737,6 @@ exercices
 .copyright-link {
   display: inline-block;
   color: var(--coquelicot);
-}
-
-.footer-bottom-list {
-  display: flex;
-  justify-content: center;
-  gap: 15px;
-  margin-block-start: 10px;
 }
 
 .footer-bottom-link {
@@ -892,14 +879,6 @@ exercices
   }
 
   .about-coach { margin-block-end: 0; }
-
-
-
-  /**
-   * VIDEO
-   */
-
-  .video-card .card-title { --fs-3: 3.5rem; }
 
 
 
@@ -1219,6 +1198,7 @@ exercices
     left: -80px;
     width: 360px;
   }
+
 
 
   /**
