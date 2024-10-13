@@ -592,11 +592,7 @@ exercices
 
 .exercices-card .card-banner { position: relative; }
 
-.exercices-card .card-banner img { transition: var(--transition-2); }
 
-.exercices-card:is(:hover, :focus) .card-banner img {
-  transform: scale(1.1);
-}
 
 .exercices-card .card-meta {
   background-color: var(--coquelicot);
@@ -1223,7 +1219,6 @@ exercices
     left: -80px;
     width: 360px;
   }
-
 
 
   /**
