@@ -378,10 +378,11 @@ body {
   margin-inline-start: -8px;
 }
 
-.logo ion-icon {
-  color: var(--coquelicot);
-  font-size: 40px;
-  transform: rotate(90deg) translate(-2px, -5px);
+.logo img {
+  height: 30px;
+  font-size: 20px;
+  transform: rotate(135deg) translate(-2px, 0px);
+  padding-left: 5px;
 }
 
 .nav-open-btn {
@@ -590,144 +591,13 @@ body {
 
 
 
-
-
-/*-----------------------------------*\
-  #VIDEO
+/*-----------------------------------
+exercices
 \*-----------------------------------*/
 
-.video {
-  padding-block: 0;
-  margin-block-end: -250px;
-}
+.exercices .section-subtitle { margin-inline: auto; }
 
-.video-card {
-  background-color: var(--light-gray);
-  background-size: cover;
-  background-position: center;
-  height: 500px;
-  border-radius: var(--radius-10);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-}
-
-.video-card::before {
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  background-color: var(--rich-black-fogra-29_50);
-  z-index: -1;
-}
-
-.video-card .card-title {
-  color: var(--white);
-  font-size: var(--fs-3);
-}
-
-.play-btn {
-  background-color: var(--coquelicot);
-  color: var(--white);
-  width: max-content;
-  font-size: 30px;
-  padding: 25px;
-  border-radius: 50%;
-  margin-block: 25px 35px;
-  animation: pulse 2s ease infinite;
-}
-
-@keyframes pulse {
-  0% { box-shadow: 0 0 0 0 var(--coquelicot); }
-  100% { box-shadow: 0 0 0 40px transparent; }
-}
-
-
-
-
-
-/*-----------------------------------*\
-  #CLASS
-\*-----------------------------------*/
-
-.class { padding-block-start: calc(var(--section-padding) + 250px); }
-
-.class .section-subtitle { margin-inline: auto; }
-
-.class .section-title { color: var(--white); }
-
-.class-card {
-  background-color: var(--white);
-  border-radius: var(--radius-10);
-  height: 100%;
-  overflow: hidden;
-}
-
-.class-card .card-banner img { transition: var(--transition-2); }
-
-.class-card:is(:hover, :focus-within) .card-banner img {
-  transform: scale(1.1);
-}
-
-.class-card .card-content { padding: 24px; }
-
-.class-card .title-wrapper {
-  display: flex;
-  align-items: center;
-}
-
-.class-card .title-icon {
-  padding-inline-end: 20px;
-  margin-inline-end: 20px;
-  min-width: max-content;
-  border-inline-end: 1px solid var(--gainsboro);
-}
-
-.class-card .card-title { transition: var(--transition-1); }
-
-.class-card .card-title:is(:hover, :focus) { color: var(--coquelicot); }
-
-.class-card .card-text {
-  color: var(--sonic-silver);
-  font-size: var(--fs-6);
-  margin-block: 16px 12px;
-}
-
-.class-card .progress-wrapper {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-family: var(--ff-catamaran);
-  color: var(--rich-black-fogra-29-1);
-  font-size: var(--fs-6);
-  font-weight: var(--fw-800);
-  margin-block-end: 8px;
-}
-
-.class-card .progress-bg {
-  background-color: var(--coquelicot_10);
-  border-radius: 50px;
-}
-
-.class-card .progress-bar {
-  background-color: var(--coquelicot);
-  height: 10px;
-  border-radius: inherit;
-}
-
-
-
-
-
-/*-----------------------------------*\
-  #BLOG
-\*-----------------------------------*/
-
-.blog .section-subtitle { margin-inline: auto; }
-
-.blog-card {
+.exercices-card {
   background-color: var(--white);
   border: 1px solid var(--light-gray);
   border-radius: var(--radius-10);
@@ -735,15 +605,15 @@ body {
   overflow: hidden;
 }
 
-.blog-card .card-banner { position: relative; }
+.exercices-card .card-banner { position: relative; }
 
-.blog-card .card-banner img { transition: var(--transition-2); }
+.exercices-card .card-banner img { transition: var(--transition-2); }
 
-.blog-card:is(:hover, :focus) .card-banner img {
+.exercices-card:is(:hover, :focus) .card-banner img {
   transform: scale(1.1);
 }
 
-.blog-card .card-meta {
+.exercices-card .card-meta {
   background-color: var(--coquelicot);
   color: var(--white);
   position: absolute;
@@ -755,20 +625,20 @@ body {
   text-transform: uppercase;
 }
 
-.blog-card .card-content { padding: 25px; }
+.exercices-card .card-content { padding: 25px; }
 
-.blog-card .card-title { transition: var(--transition-1); }
+.exercices-card .card-title { transition: var(--transition-1); }
 
-.blog-card .card-title:is(:hover, :focus) { color: var(--coquelicot); }
+.exercices-card .card-title:is(:hover, :focus) { color: var(--coquelicot); }
 
-.blog-card .card-text {
+.exercices-card .card-text {
   font-size: var(--fs-6);
   margin-block: 8px 12px;
 }
 
-.blog-card .btn-link { --color: var(--coquelicot); }
+.exercices-card .btn-link { --color: var(--coquelicot); }
 
-.blog-card .btn-link:is(:hover, :focus) { --color: var(--rich-black-fogra-29-1); }
+.exercices-card .btn-link:is(:hover, :focus) { --color: var(--rich-black-fogra-29-1); }
 
 
 
