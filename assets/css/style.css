@@ -144,9 +144,6 @@ body {
 ::-webkit-scrollbar-thumb:hover { background-color: var(--rich-black-fogra-29-1); }
 
 
-
-
-
 /*-----------------------------------*\
   #REUSED STYLE
 \*-----------------------------------*/
@@ -325,9 +322,6 @@ body {
 .has-scrollbar::-webkit-scrollbar-thumb:hover { background-color: var(--coquelicot); }
 
 .has-scrollbar::-webkit-scrollbar-button { width: calc(25% - 25px); }
-
-
-
 
 
 /*-----------------------------------*\
@@ -1198,7 +1192,6 @@ exercices
     left: -80px;
     width: 360px;
   }
-
 
 
   /**
