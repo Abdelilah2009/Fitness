@@ -1,0 +1,8 @@
+.hero {
+    color: var(--cadet-gray);
+    text-align: center;
+    padding-block-start: calc(var(--section-padding) + 110px) !important; 
+    padding-block-end: 0;
+    overflow: hidden;
+    background-repeat: no-repeat;
+  }
