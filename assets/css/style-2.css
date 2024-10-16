@@ -25,6 +25,24 @@
   }
 }
 
+  /**
+ * responsive for larger than 992px screen
+ */
+
+ @media (max-width: 992px) {
+
+  /**
+   * HERO
+   */
+
+  .hero {
+    background-size: cover !important;
+    text-align: left;
+    height: 15vh;
+  }
+}
+
+
 
 /**
  * responsive for larger than 575px screen
