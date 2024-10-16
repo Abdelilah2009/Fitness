@@ -6,3 +6,38 @@
     overflow: hidden;
     background-repeat: no-repeat;
   }
+
+
+  /**
+ * responsive for larger than 992px screen
+ */
+
+@media (min-width: 992px) {
+
+  /**
+   * HERO
+   */
+
+  .hero {
+    background-size: cover !important;
+    text-align: left;
+    height: 30vh;
+  }
+}
+
+
+/**
+ * responsive for larger than 575px screen
+ */
+
+@media (max-width: 575px) {
+    /**
+   * HERO
+   */
+
+   .hero {
+    background-size: cover !important;
+    text-align: left;
+    height: 35vh;
+  }
+}
