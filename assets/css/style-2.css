@@ -1,3 +1,181 @@
+/* Programme */
+
+/* Importing Google font - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Defining Custome Variables */
+:root {
+    /* Colors */
+    --primary-color: #000000;
+    --secondary-color: hsl(12, 98%, 52%);
+    --dark-color: #252525;
+    --white-color: #fff;
+    --light-gray-color: #f2f2f2;
+
+    /* Site Max-Width */
+    --site-max-width: 1300px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--white-color);
+}
+
+/* Setting for the whole website */
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.section_container {
+    margin: 0 auto;
+    max-width: var(--site-max-width);
+}
+
+br{
+  padding: 100px 0px;
+}
+
+.rest{
+  text-align: center;
+  font-size: 30px;
+  font-family: "Righteous", sans-serif;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.tfo{
+  padding-bottom: 25px;
+}
+
+.section_title {
+    text-align: center;
+    padding: 60px 0 40px;
+    font-size: 32px;
+    font-family: "Righteous", sans-serif;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.section_title-center {
+  text-align: center;
+  padding: 60px 0 40px;
+  font-size: 32px;
+  font-family: "Righteous", sans-serif;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.section_title-center::after {
+  content: '';
+  width: 80px;
+  background: var(--secondary-color);
+  height: 5px;
+  display: block;
+  margin: 7px auto 0;
+  border-radius: 8px;
+}
+
+.section_title::after {
+    content: '';
+    width: 80px;
+    background: var(--secondary-color);
+    height: 5px;
+    display: block;
+    margin: 7px auto 0;
+    border-radius: 8px;
+}
+
+
+/* About Us Section */
+.programme {
+    padding: 60px 20px 120px;
+    background: var(--white-color);
+}
+
+.programme_container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+}
+
+.programme_container .text_section {
+    max-width: 50%;
+}
+
+.programme_container .text_section p {
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.programme_container .image_section {
+    max-width: 45%;
+}
+
+.programme_container .image_section img {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+/* Responsive Media Query code for max-width: 1024px */
+
+@media screen and (max-width: 1024px) {
+    .programme_container {
+        flex-direction: column;
+    }
+
+    .programme_container .text_section {
+        max-width: 100%;
+    }
+
+}
+
+/* Responsive Media Query code for max-width: 576px */
+@media screen and (max-width: 576px) {
+
+    .programme_container .image_section {
+        max-width: 70%;
+    }
+
+    .button {
+        padding: 10px 20px !important;
+        font-size: 15px !important;
+    }
+}
+
+
+
+
+
+
+
+
+/* Exercices  */
+
 .hero {
     color: var(--cadet-gray);
     text-align: center;
