@@ -45,6 +45,11 @@ ul {
     max-width: var(--site-max-width);
 }
 
+
+.ss{
+    padding-bottom: 20px !important;
+}
+
 br{
   padding: 100px 0px;
 }
@@ -132,6 +137,106 @@ br{
 .programme_container .image_section img {
     width: 100%;
 }
+
+
+/* contact */
+
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    min-width: 80%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    position: relative;
+  }
+
+  /* .flex {
+    display: flex;
+    width: 100%;
+    gap: 6px;
+  } */
+  
+  .form label {
+    position: relative;
+  }
+
+  .form label .input {
+    width: 100%;
+    padding: 10px 10px 20px 10px;
+    outline: 0;
+    border: 1px solid rgba(105, 105, 105, 0.397);
+    border-radius: 10px;
+  }
+  
+  .form label .input + span {
+    position: absolute;
+    left: 10px;
+    top: 15px;
+    color: grey;
+    font-size: 0.9em;
+    cursor: text;
+    transition: 0.3s ease;
+  }
+  
+  .form label .input:placeholder-shown + span {
+    top: 15px;
+    font-size: 0.9em;
+  }
+  
+  .form label .input:focus + span,.form label .input:valid + span {
+    top: 0px;
+    font-size: 0.7em;
+    font-weight: 600;
+  }
+  
+  .form label .input:valid + span {
+    color: var(--secondary-color);
+  }
+  
+  .submit {
+    border: none;
+    outline: none;
+    background-color: var(--secondary-color);
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+    transition: 0.3s ease;
+  }
+  
+  .submit:hover {
+    background-color: rgba(255, 72, 0, 0.774);
+    cursor: pointer;
+  }
+  
+  @keyframes pulse {
+    from {
+      transform: scale(0.9);
+      opacity: 1;
+    }
+  
+    to {
+      transform: scale(1.8);
+      opacity: 0;
+    }
+  }
+
+
+
+
+
+
+
+
 
 
 
