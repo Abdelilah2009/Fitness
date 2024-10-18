@@ -571,7 +571,7 @@ body {
 
 
 /*-----------------------------------
-exercices
+  EXERCICES
 \*-----------------------------------*/
 
 .exercices .section-subtitle { margin-inline: auto; }
@@ -607,7 +607,7 @@ exercices
 .exercices-card .card-title:is(:hover, :focus) { color: var(--coquelicot); }
 
 .exercices-card .card-text {
-  font-size: var(--fs-6);
+  font-size: var(--fs-5);
   margin-block: 8px 12px;
 }
 
